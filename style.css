@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+    font-family: sans-serif;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #1a1a1a;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar li {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    text-align: center;
+}
+
+.left h1 {
+    font-size: 60px;
+    padding-bottom: 10px;
+    color: aqua;
+}
+
+.left h2 {
+    font-size: 40px;
+}
+
+.left h3 {
+    font-size: 30px;
+}
+
+.hire-me,
+.view-project {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hire-me {
+    background-color: aqua;
+    color: black;
+}
+
+.view-project {
+    border: 2px solid aqua;
+    background-color: transparent;
+    color: rgb(98, 198, 207);
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.fa-linkedin {
+    font-size: 60px;
+    padding: 10px;
+    color: aqua;
+}
+
+.fa-github {
+    font-size: 60px;
+    padding-bottom: 10px;
+    color: aqua;
+}
+
+.fa-facebook {
+    font-size: 60px;
+    padding-bottom: 10px;
+    color: aqua;
+}
+
+.heading {
+    font-size: 40px;
+    padding-bottom: 10px;
+    color: aqua;
+    padding-left: 77px;
+}
+
+.box {
+    /* border: 2px solid#eceaea; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    height: 900px;
+    width: 100%;
+}
+
+.r-1 pre {
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.l-1 img {
+    margin-top: 30px;
+    width: 450px;
+    height: 450px;
+    border-radius: 300px;
+    box-shadow: 0px 0px 70px aqua;
+}
+
+.skills-section {
+    padding: 50px;
+    text-align: center;
+    height: 900px;
+    width: 100%;
+}
+.skills-section h2 {
+    font-size: 2.5rem;
+    margin-top: 50px;
+    position: absolute;
+    top: 1770px;
+    left: 670px;
+    color: #fbf9f3; /* Accent color for title */
+}
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.skill-item {
+    width: 300px;
+    background-color: #222; /* Dark background for skill cards */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.skill-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 50px aqua;/* Subtle zoom effect on hover */
+}
+.skill-item img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+.skill-item h3 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+    color: #fcfcfc; /* Accent color for skill titles */
+}
+.skill-item p {
+    font-size: 1rem;
+    color: #ccc; /* Lighter gray for descriptions */
+}
